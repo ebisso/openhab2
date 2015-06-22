@@ -20,9 +20,10 @@ public class ParadoxBindingConstants {
     public static final String BINDING_ID = "paradox";
     
     // List of all Thing Type UIDs
-    public final static ThingTypeUID THING_TYPE_SAMPLE = new ThingTypeUID(BINDING_ID, "sample");
+    public final static ThingTypeUID THING_TYPE_SPECTRA1738 = new ThingTypeUID(BINDING_ID, "spectra1738");
 
     // List of all Channel ids
-    public final static String CHANNEL_1 = "channel1";
+    public final static String CHANNEL_1 = "zone1";
+    public final static String CHANNEL_2 = "zone2";
 
 }

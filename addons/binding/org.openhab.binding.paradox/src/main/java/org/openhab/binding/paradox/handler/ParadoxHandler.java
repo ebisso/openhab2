@@ -37,5 +37,8 @@ public class ParadoxHandler extends BaseThingHandler {
         if(channelUID.getId().equals(CHANNEL_1)) {
             // TODO: handle command
         }
+        if(channelUID.getId().equals(CHANNEL_2)) {
+            // TODO: handle command
+        }
 	}
 }

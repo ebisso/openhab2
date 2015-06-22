@@ -5,20 +5,22 @@
         xsi:schemaLocation="http://eclipse.org/smarthome/schemas/thing-description/v1.0.0 http://eclipse.org/smarthome/schemas/thing-description-1.0.0.xsd">
 
     <!-- Sample Thing Type -->
-    <thing-type id="sample">
-        <label>Paradox Binding Thing</label>
-        <description>Sample thing for Paradox Binding</description>
+    <thing-type id="spectra1738">
+        <label>Paradox Spectra 1738</label>
+        <description>Reads events from the Spectra 1738 serial port</description>
 
         <channels>
-            <channel id="channel1" typeId="sample-channel"/>
+            <channel id="zone1" typeId="zone"/>
+            <channel id="zone2" typeId="zone"/>
         </channels>
     </thing-type>
 
     <!-- Sample Channel Type -->
-    <channel-type id="sample-channel">
-        <item-type>paradoxItem</item-type>
+    <channel-type id="zone">
+        <item-type>Switch</item-type>
         <label>Paradox Binding Channel</label>
         <description>Sample channel for Paradox Binding</description>
+        <state readOnly="true" />
     </channel-type>
 
 </thing:thing-descriptions>

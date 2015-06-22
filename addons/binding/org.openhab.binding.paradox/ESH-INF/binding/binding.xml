@@ -5,7 +5,7 @@
         xsi:schemaLocation="http://eclipse.org/smarthome/schemas/binding/v1.0.0 http://eclipse.org/smarthome/schemas/binding-1.0.0.xsd">
 
     <name>Paradox Binding</name>
-    <description>This is the binding for Paradox.</description>
+    <description>This binding reads alarm panel events from the serial port of Paradox alarm panels. Currently supports Spectra 1738.</description>
     <author>Eric Bissonnette</author>
 
 </binding:binding>
