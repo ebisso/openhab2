@@ -18,3 +18,4 @@ Import-Package:
 Service-Component: OSGI-INF/*.xml
 Export-Package: org.openhab.binding.paradox,
  org.openhab.binding.paradox.handler
+Require-Bundle: org.openhab.io.transport.serial

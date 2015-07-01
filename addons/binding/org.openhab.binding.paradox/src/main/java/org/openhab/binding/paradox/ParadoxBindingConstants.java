@@ -25,5 +25,8 @@ public class ParadoxBindingConstants {
     // List of all Channel ids
     public final static String CHANNEL_1 = "zone1";
     public final static String CHANNEL_2 = "zone2";
+    
+    // Configuration keys
+    public final static String CONFIGURATION_SERIALPORTNAME = "serialportname";
 
 }

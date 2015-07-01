@@ -9,6 +9,8 @@ package org.openhab.binding.paradox.internal;
 
 import static org.openhab.binding.paradox.ParadoxBindingConstants.*;
 
+import gnu.io.NRSerialPort;
+
 import java.util.Collections;
 import java.util.Set;
 
